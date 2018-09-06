@@ -1,0 +1,60 @@
+447  cd wdi
+  448  ls -la
+  449  cd command-line-murder-mystery/
+  450  ls -la
+  451  cd mystery/
+  452  ls -la
+  453  cat clues.txt 
+  454  history
+  455  ls -la
+  456  cd wdi
+  457  ls -la
+  458  cd command-line-murder-mystery/
+  459  ls -la
+  460  cd mystery/
+  461  ls -la
+  462  cd memberships/
+  463  ls -la
+  464  cd AAA
+  465  cat AAA
+  466  cat AAA | grep "Annabel"
+  467  ls -la
+  468  cat Delta_SkyMiles 
+  469  cat Delta_SkyMiles | "Annabel"
+  470  cat Delta_SkyMiles | grep "Annabel"
+  471  ls -la
+  472  cat library.txt | grep "Annabel"
+  473  cat Museum_of_Bash_History | grep "Annabel"
+  474  cd ..
+  475  ls -la
+  476  cat annabels-from-vehicles 
+  477  ls -la
+  478  cd people
+  479  cat people
+  480  cat vehicles
+  481  cat suspect.txt
+  482  cat vehicles
+  483  cat suspect.txt 
+  484  cat suspect.txt
+  485  ls -la
+  486  cat suspects4
+  487  cat suspect4.txt 
+  488  cd memberships
+  489  ls -la
+  490  grep "Erika Owens" AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  491  grep "Joe Germuska" AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  492  grep "Jeremy Bowers" AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  493  grep "Jacqui Maher" AAA Delta_SkyMiles library.txt Museum_of_Bash_History 
+  494  grep "Jeremy Bowers" AAA Delta_SkyMiles library.txt Museum_of_Bash_History >> ../clues.txt
+  495  grep "Jacqui Maher" AAA Delta_SkyMiles library.txt Museum_of_Bash_History >> ../clues.txt
+  496  cd ..
+  497  cat clues.txt 
+  498  cd ..
+  499  touch solution.txt
+  500  history
+  501  cd wdi
+  502  cd command-line-murder-mystery/
+  503  history
+
+
+Killer: either Jeremy Bowers or Jacqui Maher; most likely Jeremy Bowers ("Jacqui" sounds like a female name, weight profile also more likely female)
